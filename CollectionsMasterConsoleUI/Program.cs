@@ -143,7 +143,7 @@ namespace CollectionsMasterConsoleUI
 
         private static void OddKiller(List<int> numberList)
         {
-            for(int i = 0; i < numberList.Count; i++ )
+            for(int i = 49; i >= 0; i-- )
             {
                 if (numberList[i] % 2 != 0) 
                 {
