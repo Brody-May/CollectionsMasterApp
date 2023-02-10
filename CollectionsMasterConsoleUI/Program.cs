@@ -88,7 +88,6 @@ namespace CollectionsMasterConsoleUI
             
             do
             {
-                Console.WriteLine("What number will you search for in the number list?");
                 isANumber= int.TryParse(Console.ReadLine(), out userNumber);
             } while (isANumber == false);
 
